@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cancún - México</title>
+    <style>
+
+        :root {
+            --color-primario: #0077b6;
+            --color-secundario: #00b4d8;
+            --color-fondo: #e3f2fd;
+            --color-texto: #0f0f0f;
+            --color-blanco: #fff;
+            --color-hover: #90e0ef;
+            --fuente-principal: 'Arial', sans-serif;
+            --fuente-titulos: 'Trebuchet MS', sans-serif;
+        }
+        
+
+        body {
+            font-family: var(--fuente-principal);
+            background-color: var(--color-fondo);
+            color: var(--color-texto);
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        
+     header {
+    background-image: url("https://humanidades.com/wp-content/uploads/2018/08/bandera-de-mexico-e1577915774733-800x416.jpg"); 
+    background-size: cover;      
+    background-position: center;   
+    background-repeat: no-repeat
+    color: var(--color-blanco);  
+    padding: 25px 0;                
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+header h1 {
+    font-family: var(--fuente-titulos);
+    font-size: 2rem;
+    margin: 0;
+    color: #f1edeb;
+}
+
+header h1 {
+    font-family: var(--fuente-titulos);
+    font-size: 2rem;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.5); 
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+
+    
+        nav ul.menu {
+            list-style: none;
+            padding: 0;
+            margin: 10px 0 0 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        nav ul.menu li a {
+            text-decoration: none;
+            color: var(--color-blanco);
+            font-weight: bold;
+            padding: 8px 12px;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+
+        nav ul.menu li a:hover {
+            background-color: var(--color-hover);
+            color: var(--color-primario);
+        }
+
+        
+        .seccion {
+            padding: 40px 20px;
+            margin: 20px;
+            border-radius: 10px;
+            background-color: var(--color-blanco);
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        
+        .columnas {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .columna {
+            flex: 1;
+            min-width: 300px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        
+        h2 {
+            color: var(--color-primario);
+            border-bottom: 3px solid var(--color-secundario);
+            padding-bottom: 10px;
+        }
+
+        p, ul, li {
+            margin: 10px 0;
+        }
+
+        
+        footer {
+            background-color: var(--color-primario);
+            color: var(--color-blanco);
+            text-align: center;
+            padding: 15px;
+        }
+        .gastronomia-container {
+    display: flex;
+    gap: 20px; 
+    align-items: flex-start;
+    flex-wrap: wrap; 
+}
+
+.gastronomia-container .info {
+    flex: 1;
+    min-width: 300px;
+}
+
+.gastronomia-container .imagen {
+    flex: 0 0 345px;
+}
+
+
+        
+        @media (max-width: 768px) {
+            nav ul.menu {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .columnas {
+                flex-direction: column;
+            }
+
+            .seccion {
+                margin: 10px;
+                padding: 20px;
+            }
+        }
+        html {
+    scroll-padding-top: 120px; 
+    scroll-behavior: smooth;  
+}
+
+    </style>
+    
+</head>
+
+<body>
+
+    <header id="encabezado">
+        <h1>México - Cancún</h1>
+        <nav>
+            <ul class="menu">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sitios">Sitios Turísticos</a></li>
+                <li><a href="#gastronomia">Gastronomía</a></li>
+                <li><a href="#video">Video de Cancún</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio" class="seccion intro">
+        <h2>Descubre Cancún</h2>
+        <p>Cancún es uno de los destinos turísticos más emblemáticos de México, ubicado en la península de Yucatán, en el estado de Quintana Roo. Con playas de arena blanca, mar turquesa y una infraestructura hotelera de primer nivel, es ideal tanto para relajarse como para vivir aventuras inolvidables.</p>
+        <p>Además de sus playas, Cancún ofrece experiencias únicas como buceo en arrecifes de coral, recorridos arqueológicos por antiguas ruinas mayas y una vibrante vida nocturna. Su clima cálido todo el año lo convierte en un paraíso tropical visitado por millones de turistas de todo el mundo.</p>
+        <img src="https://blog.vivaaerobus.com/wp-content/uploads/2019/12/Mejores-Playas-de-Canc%C3%BAn.jpg" width="400" height="400"alt="Vista panorámica de las playas de Cancún">
+        <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res70/554000/554010-cancun.jpg" width="400" height="400"alt="Vista panorámica de las playas de Cancún">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrqljLkQBsVt4BuvFZ0vyX2LXJHRkF2z6WKQ&s" width="345" height="400"alt="Vista panorámica de las playas de Cancún">
+    </section>
+
+    <section id="sitios" class="seccion">
+        <h2>Sitios Turísticos y Actividades</h2>
+        <p>En Cancún podrás encontrar una amplia gama de actividades para todos los gustos. Desde excursiones naturales hasta experiencias culturales, este destino lo tiene todo.</p>
+        <br>
+        <ul>
+            <li><b>Tour en Isla Mujeres:</b> $80.00 – Paseo en catamarán con snorkel, almuerzo y acceso a playas privadas.</li>
+            <li><b>Visita a cenotes:</b> $50.00 – Explora cuevas naturales con aguas cristalinas y formaciones rocosas impresionantes.</li>
+            <li><b>Entrada a parques Xcaret o Xel-Há:</b> $120.00 – Parques ecológicos con espectáculos culturales, fauna, y actividades acuáticas.</li>
+            <li><b>Ruinas de Tulum:</b> $60.00 – Un viaje en el tiempo para conocer la historia y cultura de la civilización maya.</li>
+            <li><b>Buque Museo Capitán Hook:</b> $75.00 – Cena temática a bordo de un barco pirata con música y entretenimiento.</li>
+        </ul>
+        <br>
+        <b><p><i>Consejo:</i> La mejor época para visitar Cancún es entre diciembre y abril, cuando el clima es más fresco y hay menos lluvias.</p></b>
+    </section>
+
+    <section id="gastronomia" class="seccion">
+    <h2>Gastronomía de Cancún</h2>
+    <div class="gastronomia-container">
+        <div class="info">
+            <p>La cocina cancunense es una deliciosa fusión entre los sabores del Caribe y las tradiciones yucatecas. La base de muchos platillos son los mariscos frescos, el achiote, el maíz y los cítricos locales.</p>
+            <ul>
+                <li><b>Ceviche de pescado:</b> elaborado con pescado fresco marinado en jugo de limón, acompañado de tomate, cebolla y cilantro.</li>
+                <li><b>Cochinita pibil:</b> carne de cerdo marinada en achiote y jugo de naranja agria, envuelta en hojas de plátano y cocida lentamente.</li>
+                <li><b>Tacos de mariscos:</b> rellenos con camarón, pulpo o pescado al grill, servidos con salsas tropicales.</li>
+                <li><b>Panuchos y salbutes:</b> antojitos típicos yucatecos con pollo, aguacate y frijoles refritos.</li>
+                <li><b>Agua de chaya o de jamaica:</b> refrescos naturales muy populares en la región.</li>
+            </ul>
+        </div>
+        <div class="imagen">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0RIeyFBfu_rLndc11GhvtHeljCIb2LLQdAgVmxHBTwmvztpWakYEXSWHUfy9vEoaj-OQ&usqp=CAU" width="345" height="500" alt="Plato típico">
+        </div>
+    </div>
+</section>
+
+
+    <section id="video" class="seccion">
+    <h2>Video de Cancún</h2>
+    <div style="text-align:center;"></div>
+    <p>Disfruta de un recorrido visual por Cancún y sus playas paradisíacas:</p>
+     <iframe width="560" height="315" src="https://www.youtube.com/embed/xg0N6hc_CxA?si=b2M4nAwE9oqhCejD" 
+     title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>    
+    </div>
+
+</section>
+<center><p><a href="Viajes.html">Volver a la página principal</a></p></center>
+
+</body>
+</html>
